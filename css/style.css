@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    margin-top: 13vh;
+}
+
+.container{
+    margin: auto;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: .4em;
+    margin-top: 1.2vh;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+button{
+    width: 13vw;
+    margin-top: 2vh;
+}
+
+label{
+    font-family: sans-serif;
+    padding-right: .5vw;
+    margin-top: 2vh;
+}
+
+#peso{
+    margin-right: -.4vw;
+}

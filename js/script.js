@@ -6,5 +6,9 @@ function calcular(){
     let imc = $peso/(Math.pow($altura, 2));
 
     $tabela.innerHTML += "<td>" + $nome + "<td>" + Math.ceil(imc);
+
+    document.querySelector("#nome").value = '';
+    document.querySelector("#peso").value = '';
+    document.querySelector("#altura").value = '';
 }
 
